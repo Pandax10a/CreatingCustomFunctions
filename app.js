@@ -7,4 +7,4 @@ function function_1(num1, num2) {
     return new_num;
 }
 
-function_1(-2, 9);
+function_1(293, 0.5);
