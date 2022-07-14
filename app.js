@@ -8,6 +8,8 @@ function function_1(num1, num2) {
 }
 
 function_1(-0.11111, 0.33333);
+function_1(-9,55);
+function_1(999, -888);
 
 
 function check_length (blah1) {
@@ -20,3 +22,5 @@ function check_length (blah1) {
 }
 
 check_length(`asdfasdfasdf`);
+check_length(`asdfadf`);
+check_length(`open sesame`);
