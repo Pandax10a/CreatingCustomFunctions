@@ -7,4 +7,16 @@ function function_1(num1, num2) {
     return new_num;
 }
 
-function_1(293, 0.5);
+function_1(-0.11111, 0.33333);
+
+
+function check_length (blah1) {
+    let word_length = blah1.length;
+    if(word_length > 10){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+check_length(`asdfasdfasdf`);
